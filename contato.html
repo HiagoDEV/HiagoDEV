@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="fomulario.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <form class="alinhar" data-aos="zoom-in" id="contato-form">
+        <h1>Entre em Contato</h1>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+
+        <div id="mensagem-enviado" class="oculto">
+            <p>Sua mensagem foi enviada com sucesso!</p>
+        </div>
+
+        <div>
+            <a href="index.html"><p>Voltar à página principal</p></a>
+        </div>
+    </form>
+
+    <footer>
+        <p>Todos os Direitos Reservados</p>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+      </script>
+
+    <script src="js.js"></script>
+</body>
+</html>

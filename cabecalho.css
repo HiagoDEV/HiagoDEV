@@ -1,0 +1,44 @@
+header {
+    background-color: #000; 
+    color: #fff; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-height: 200px;
+}
+
+.logo {
+    max-height: 100%; 
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.menu img {
+    margin-right: 5px;
+}
+
+.linkedin {
+    width: 30px;
+    margin-top: -7px;
+}
+
+.wpp {
+    width: 35px;
+    margin-top: -11px;
+}
+
+
